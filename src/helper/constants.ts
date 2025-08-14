@@ -28,6 +28,7 @@ import azureImage from "/public/Azure.png"
 
 export const phoneNumber = "407-624-8456"
 export const email = "gustavoxcornejo@gmail.com"
+export const resumeLink = "https://www.icloud.com/iclouddrive/0e1wJdsBHLPZVE7ddcv-z8Wng#Gus_Cornejo_Resume"
 
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
@@ -95,7 +96,7 @@ export const Certifications: CarouselModel[] = [
     title: "Professional Scrum Master I", 
     description: "", 
     imageUrl: PSM1, 
-    link: "https://www.udemy.com/certificate/UC-178d9bda-caaa-4bef-8451-e6e03494f355/"
+    link: "https://www.scrum.org/certificates/860510"
   },
   {
     id: 2, 
