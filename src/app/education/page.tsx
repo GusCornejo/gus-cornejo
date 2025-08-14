@@ -28,18 +28,21 @@ export default function EducationPage() {
       <div className="flex justify-center">
         <h2 className="text-white text-2xl lg:text-5xl">Higher Education</h2>
       </div>
-      <div className="p-5 mt-5 flex flex-wrap justify-center gap-4">
-        <div className="flex flex-col justify-center items-center gap-4">
-          <div className="p-4 flex flex-col justify-center items-center gap-2 bg-white rounded-lg border-1 shadow-lg">
-            <p className="text-xl lg:text-2xl">Bachelor of Science</p>
-            <p className="text-lg lg:text-xl">
+      <div className="p-5 lg:mt-5 flex flex-wrap justify-center gap-4">
+        <div className="flex md:flex-col justify-center items-center gap-4">
+          <div className="p-4 flex flex-col justify-center items-center gap-1 bg-white rounded-lg border-1 shadow-lg">
+            <p className="text-lg lg:text-2xl text-center">
+              Bachelor of Science
+            </p>
+            <p className="text-md lg:text-xl">
               <b>Computer Science</b>
             </p>
+            <p className="text-md lg:text-lg">2018 - 2022</p>
           </div>
           <Image
             src={UcfImage}
             alt="UCF Emblem"
-            className="w-[50vw] max-w-120 rounded-xl shadow-xl"
+            className="w-[40vw] max-w-120 rounded-xl shadow-xl"
           />
         </div>
         <Image

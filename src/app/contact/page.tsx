@@ -9,7 +9,6 @@ import Profiles from "@/components/profiles";
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     subject: "",
     body: "",
   });
@@ -26,13 +25,12 @@ export default function ContactPage() {
         method: "POST",
         body: JSON.stringify({
           name: formData.name,
-          email: formData.email,
           subject: formData.subject,
           body: formData.body,
         }),
       });
       setSuccess(true);
-      setFormData({ name: "", email: "", subject: "", body: "" });
+      setFormData({ name: "", subject: "", body: "" });
     } catch (error) {
       console.log(error);
       setError("Failed to send email");
@@ -57,16 +55,6 @@ export default function ContactPage() {
                 value={formData.name}
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
-                }
-                className="p-2 w-full bg-white rounded-lg border-1 shadow"
-                required
-              />
-              <input
-                type="text"
-                placeholder="Email"
-                value={formData.email}
-                onChange={(e) =>
-                  setFormData({ ...formData, email: e.target.value })
                 }
                 className="p-2 w-full bg-white rounded-lg border-1 shadow"
                 required

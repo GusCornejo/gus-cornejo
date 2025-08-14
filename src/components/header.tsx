@@ -15,7 +15,7 @@ export default function Header() {
     }`;
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
+    const handleInteraction = (event: Event) => {
       if (
         dropdownRef.current &&
         !dropdownRef.current.contains(event.target as Node) &&
@@ -25,9 +25,12 @@ export default function Header() {
         setSmallScreen(false);
       }
     };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.addEventListener("mousedown", handleInteraction);
+    document.addEventListener("scroll", handleInteraction);
+    return () => {
+      document.removeEventListener("mousedown", handleInteraction);
+      document.removeEventListener("scroll", handleInteraction);
+    };
   }, []);
 
   return (

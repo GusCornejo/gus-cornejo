@@ -18,8 +18,8 @@ export default function JobCard(props: JobCardProps) {
           } bg-white h-auto rounded-lg border-black border-1 shadow`}
         />
         <div className="p-2 text-white text-center text-left bg-black/20 rounded-lg">
-          <p className="text-2xl lg:text-4xl">{props.job.company}</p>
-          <p className="text-xl lg:text-3xl">
+          <p className="text-xl lg:text-3xl">{props.job.company}</p>
+          <p className="text-lg lg:text-2xl">
             <b>{props.job.title}</b>
           </p>
           <p className="text-lg lg:text-xl italic">
@@ -27,11 +27,11 @@ export default function JobCard(props: JobCardProps) {
           </p>
         </div>
       </div>
-      <ul className="flex flex-row flex-wrap gap-3">
+      <ul className="flex flex-row flex-wrap gap-2 lg:gap-3">
         {props.job.description.map((item, index) => (
           <li
             key={index}
-            className="flex-2 p-5 text-sm lg:text-xl text-black bg-white rounded-lg border-1 shadow"
+            className="flex-2 p-3 lg:p-5 text-sm lg:text-xl text-black bg-white rounded-lg border-1 shadow"
           >
             {item}
           </li>

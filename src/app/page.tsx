@@ -38,8 +38,8 @@ export default function Home() {
           Technical Skills
         </p>
         <div className="flex flex-wrap justify-center  gap-5">
-          {Skills.map((skill) => (
-            <SkillCard image={skill.image} title={skill.title} />
+          {Skills.map((skill, key) => (
+            <SkillCard key={key} image={skill.image} title={skill.title} />
           ))}
         </div>
       </div>
@@ -47,9 +47,9 @@ export default function Home() {
         <p className="mb-6 align text-white text-center text-3xl lg:text-5xl">
           Functional Skills
         </p>
-        <div className="flex flex-wrap justify-center  gap-5">
-          {FunctionalSkills.map((skill) => (
-            <FunctionalSkillCard title={skill} />
+        <div className="flex flex-wrap justify-center gap-4">
+          {FunctionalSkills.map((skill, key) => (
+            <FunctionalSkillCard key={key} title={skill} />
           ))}
         </div>
       </div>
