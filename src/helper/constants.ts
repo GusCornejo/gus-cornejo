@@ -7,10 +7,6 @@ import DataFundamentals from "/public/DataFundamentals.png";
 import PSM1 from "/public/PSM1.jpg";
 import iOS from "/public/iOS.jpg";
 import CodePath from "/public/CodePath.jpg";
-import CapImage from "/public/Capgemini.png";
-import UcfImage from "/public/UCF2.png";
-import UniversalImage from "/public/Universal.jpg";
-import { JobModel } from "@/models/JobModel";
 import { SkillModel } from "@/models/SkillModel";
 //images
 import tsImage from "/public/Typescript.png";
@@ -56,39 +52,6 @@ export const Skills: SkillModel[] = [
 ]
 
 export const FunctionalSkills = ["Team-player","Communication","Attention to detail","Adaptability and flexibility","Problem-solving","Bilingual (English, Spanish)"]
-
-export const Capgemini: JobModel ={
-  company: "Capgemini",
-  title: "Software Developer",
-  years: "Aug. 2022 - Present",
-  location: "Columbia, SC",
-  description: [
-    "Working as a full-stack developer on a web-based application leveraging Typescript React, Azure API Management (APIM), Cosmos DB, and the Microsoft Authentication Library (MSAL)",
-    "Developed mobile applications using .NET MAUI, integrating multiple services including ASP.NET Web APIs, MSAL, Microsoft Graph API, and third party tools, for both Android and iOS",
-    "Designed and developed APIs using Azure Functions, Data Factory, Power Automate, and Azure KeyVault, meeting client’s specific requirements",
-    "Provided strategic recommendations on Azure Cloud architecture and design, aligning solutions with client’s business goals",
-    "Collaborated with project managers, experts, and technical teams to ensure seamless execution and delivery of projects for both the company and its clients",
-  ],
-  imageUrl: CapImage
-};
-
-export const UcfJob: JobModel = {
-  company: "University of Central Florida",
-  title: "Undergraduate Learning Assistant",
-  years: "May 2021 - May 2022",
-  location: "Orlando, FL",
-  description: ["Held weekly virtual and physical office hours in a computer science class with over 150 students","Assisted students with homework assignments, test/quizzes study guides, and topics related to the course", "Successfully completed training sessions and attended conversational meetings to acquire professional teaching strategies and quality classroom technique"],
-  imageUrl: UcfImage
-};
-
-export const UniversalJob: JobModel = {
-  company: "Universal Orlando Resort",
-  title: "Deep Water Lifeguard",
-  years: "May 2017 - Sep. 2021",
-  location: "Orlando, FL",
-  description: ["Oversaw the development and growth in aquatics employees as first responders and problem solvers, also ensuring they were providing quality hospitality engagement", "Assisted in the inauguration of brand-new theme-park and preparation of staff for the noteworthy event", "Assisted the company with the selection and capacitation of a new rooster of employees following the closure periods resulting from the COVID-19 Pandemic", "Expanded and developed strategies in training employees with efficiency, safety, and recovery while maintaining an above-average of 90% on performance audits of employees trained"],
-  imageUrl: UniversalImage
-};
 
 export const Certifications: CarouselModel[] = [
   {

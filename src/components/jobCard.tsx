@@ -31,7 +31,7 @@ export default function JobCard(props: JobCardProps) {
         {props.job.description.map((item, index) => (
           <li
             key={index}
-            className="flex-2 p-3 lg:p-5 text-sm lg:text-xl text-black bg-white rounded-lg border-1 shadow"
+            className=" sm:w-[calc(50%-0.5rem)] xl:w-[calc(20%-0.75rem)] p-3 lg:p-5 text-sm lg:text-xl text-black bg-white rounded-lg border shadow"
           >
             {item}
           </li>

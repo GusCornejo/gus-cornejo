@@ -1,5 +1,4 @@
 "use client";
-import { Resend } from "resend";
 import contactImg from "/public/contact.jpg";
 import Hero from "@/components/hero";
 import { useState } from "react";
