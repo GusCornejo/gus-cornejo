@@ -24,7 +24,7 @@ import azureImage from "/public/Azure.png"
 
 export const phoneNumber = "407-624-8456"
 export const email = "gustavoxcornejo@gmail.com"
-export const resumeLink = "https://www.icloud.com/iclouddrive/0e1wJdsBHLPZVE7ddcv-z8Wng#Gus_Cornejo_Resume"
+export const resumeLink = "https://www.icloud.com/iclouddrive/06f8Wj-q9IlXnKKQ7_j0NM68g#Resume"
 
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
