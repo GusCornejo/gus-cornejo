@@ -24,13 +24,13 @@ import azureImage from "../../public/Azure.png"
 
 export const phoneNumber = "407-624-8456"
 export const email = "gus.cornejo@icloud.com"
-export const resumeLink = "https://www.icloud.com/iclouddrive/05aHOd7Zz5TaoqKOiqlEu5ovA#Resume"
+export const resumeLink = "https://www.icloud.com/iclouddrive/0c6DR3ZRrxCfb2Dld86kjSKJg#Resume"
 
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
 export const MicrosoftLearnURL = "https://learn.microsoft.com/en-us/users/guscornejo/transcript/de6w2a2wnzoe0y5?tab=credentials-tab";
 
-export const Bio1: string = "Hi, I'm Gustavo Cornejo - but most people just call me Gus 👋. I'm a passionate Frontend Software Engineer with a solid foundation in computer science and a love for crafting intuitive, high-performance web experiences."
+export const Bio1: string = "Hi, I'm Gustavo Cornejo - but most people just call me Gus 👋. I'm a passionate Frontend-Focused Software Engineer with a solid foundation in computer science and a love for crafting intuitive, high-performance web experiences."
 
 export const Bio2: string = "I specialize in building modern applications using React and TypeScript, and I've had the opportunity to develop a web-based platform that integrates Azure API Management and Cosmos DB - boosting both user experience and backend efficiency."
 

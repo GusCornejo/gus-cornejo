@@ -5,7 +5,7 @@ import UniversalImage from "../../public/Universal.jpg";
 
 export const Capgemini: JobModel = {
   company: "Capgemini",
-  title: "Senior Software Developer",
+  title: "Senior Software Engineer",
   years: "Aug. 2022 - Present",
   location: "Columbia, SC",
   description: [
