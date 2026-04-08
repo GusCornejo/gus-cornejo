@@ -1,9 +1,9 @@
 "use client";
-import contactImg from "/public/contact.jpg";
 import Hero from "@/components/hero";
 import { useState } from "react";
 import { email, phoneNumber } from "@/helper/constants";
 import Profiles from "@/components/profiles";
+import contactImg from "../../../public/contact.jpg";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

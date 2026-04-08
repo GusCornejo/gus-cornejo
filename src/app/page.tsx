@@ -1,8 +1,8 @@
 "use client";
 import Hero from "@/components/hero";
 import SkillCard from "@/components/skillCard";
-import homeImg from "/public/hero.jpg";
-import myImg from "/public/gus.jpeg";
+import homeImg from "../../public/hero.jpg";
+import myImg from "../../public/gus.jpeg";
 import Image from "next/image";
 import { Bio1, Bio2, Bio3, FunctionalSkills, Skills } from "@/helper/constants";
 import Profiles from "@/components/profiles";

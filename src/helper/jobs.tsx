@@ -1,7 +1,7 @@
 import { JobModel } from "@/models/JobModel";
-import CapImage from "/public/Capgemini.png";
-import UcfImage from "/public/UCF2.png";
-import UniversalImage from "/public/Universal.jpg";
+import CapImage from "../../public/Capgemini.png";
+import UcfImage from "../../public/UCF2.png";
+import UniversalImage from "../../public/Universal.jpg";
 
 export const Capgemini: JobModel = {
   company: "Capgemini",

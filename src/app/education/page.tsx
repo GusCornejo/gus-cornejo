@@ -1,10 +1,10 @@
 import Image from "next/image";
-import educationImg from "/public/education.jpg";
 import Hero from "@/components/hero";
-import UcfImage from "/public/UCF.jpg";
-import UcfDiploma from "/public/Diploma.jpg";
 import Carousel from "@/components/carousel/carousel";
 import { Certifications, MicrosoftCerts } from "@/helper/constants";
+import educationImg from "../../../public/education.jpg";
+import UcfImage from "../../../public/UCF.jpg";
+import UcfDiploma from "../../../public/Diploma.jpg";
 
 export default function EducationPage() {
   return (

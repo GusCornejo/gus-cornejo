@@ -1,30 +1,30 @@
 import { CarouselModel } from "@/models/CarouselModel";
-import AiFundamentals from "/public/AiFundamentals.png";
-import AiEngineer from "/public/AiEngineer.png";
-import PowerFundamentals from "/public/PowerPlatformFundamentals.png";
-import AzureFundamentals from "/public/AzureFundamentals.png";
-import DataFundamentals from "/public/DataFundamentals.png";
-import PSM1 from "/public/PSM1.jpg";
-import iOS from "/public/iOS.jpg";
-import CodePath from "/public/CodePath.jpg";
+import AiFundamentals from "../../public/AiFundamentals.png";
+import AiEngineer from "../../public/AiEngineer.png";
+import PowerFundamentals from "../../public/PowerPlatformFundamentals.png";
+import AzureFundamentals from "../../public/AzureFundamentals.png";
+import DataFundamentals from "../../public/DataFundamentals.png";
+import PSM1 from "../../public/PSM1.jpg";
+import iOS from "../../public/iOS.jpg";
+import CodePath from "../../public/CodePath.jpg";
 import { SkillModel } from "@/models/SkillModel";
 //images
-import tsImage from "/public/Typescript.png";
-import jsImage from "/public/Javascript.png";
-import reactImage from "/public/React.png";
-import nextImage from "/public/Next.png";
-import htmlImage from "/public/HTML.png";
-import cssImage from "/public/CSS.png";
-import gitImage from "/public/Git.png";
-import nodeImage from "/public/Node.png";
-import tailwindImage from "/public/Tailwind.png";
-import swiftImage from "/public/Swift.png";
-import dotnetImage from "/public/Dotnet.png"
-import azureImage from "/public/Azure.png"
+import tsImage from "../../public/Typescript.png";
+import jsImage from "../../public/Javascript.png";
+import reactImage from "../../public/React.png";
+import nextImage from "../../public/Next.png";
+import htmlImage from "../../public/HTML.png";
+import cssImage from "../../public/CSS.png";
+import gitImage from "../../public/Git.png";
+import nodeImage from "../../public/Node.png";
+import tailwindImage from "../../public/Tailwind.png";
+import swiftImage from "../../public/Swift.png";
+import dotnetImage from "../../public/Dotnet.png"
+import azureImage from "../../public/Azure.png"
 
 export const phoneNumber = "407-624-8456"
 export const email = "gus.cornejo@icloud.com"
-export const resumeLink = "https://www.icloud.com/iclouddrive/06f8Wj-q9IlXnKKQ7_j0NM68g#Resume"
+export const resumeLink = "https://www.icloud.com/iclouddrive/05aHOd7Zz5TaoqKOiqlEu5ovA#Resume"
 
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";

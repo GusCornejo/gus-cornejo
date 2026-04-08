@@ -1,7 +1,7 @@
 import Image from "next/image";
-import MicrosoftImg from "/public/Microsoft.png";
-import GitHubImg from "/public/GitHub.png";
-import LinkedInImg from "/public/LinkedIn.png";
+import MicrosoftImg from "../../public/Microsoft.png";
+import GitHubImg from "../../public/GitHub.png";
+import LinkedInImg from "../../public/LinkedIn.png";
 import {
   GitHubURL,
   LinkedInURL,

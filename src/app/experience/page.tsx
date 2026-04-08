@@ -1,7 +1,7 @@
 import Hero from "@/components/hero";
-import experienceImg from "/public/experience.jpg";
 import JobCard from "@/components/jobCard";
 import { Capgemini, UcfJob, UniversalJob } from "@/helper/jobs";
+import experienceImg from "../../../public/experience.jpg";
 
 export default function ExperiencePage() {
   return (
