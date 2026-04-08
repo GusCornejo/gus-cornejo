@@ -5,38 +5,33 @@ import UniversalImage from "/public/Universal.jpg";
 
 export const Capgemini: JobModel = {
   company: "Capgemini",
-  title: "Software Developer",
+  title: "Senior Software Developer",
   years: "Aug. 2022 - Present",
   location: "Columbia, SC",
   description: [
     <>
-      Spearheaded full-stack development of an{" "}
-      <b>enterprise-grade web application</b> using <b>TypeScript</b>,{" "}
-      <b>React</b>, <b>Azure API Management</b>, <b>Cosmos DB</b>, and{" "}
-      <b>MSAL</b>, delivering secure, scalable, and high-performance solutions
-      for business operations.
+      Built and shipped a production enterprise web app from the ground up{" "}
+      <b>TypeScript</b>, <b>React</b>, <b>Azure APIM</b>, and <b>Cosmos DB</b>{" "}
+      with <b>MSAL</b> handling enterprise auth for real client users.
     </>,
     <>
-      Contributed to <b>end-to-end testing</b>,{" "}
-      <b>CI/CD pipeline integration</b>, and <b>production deployment</b> of the
-      enterprise web application, ensuring reliability, performance, and
-      maintainability across environments.
+      Owned the full deployment lifecycle: end-to-end testing,{" "}
+      <b>CI/CD pipeline</b> setup, and production releases across multiple
+      environments.
     </>,
     <>
-      Worked on a <b>cross-platform mobile application</b> using{" "}
-      <b>.NET MAUI</b>, delivering a unified codebase and native performance
-      across <b>Android</b> and <b>iOS</b> platforms.
+      Developed a cross-platform mobile app in <b>.NET MAUI</b> that runs
+      natively on both <b>Android</b> and <b>iOS</b> from a single shared
+      codebase.
     </>,
     <>
-      Designed and implemented <b>custom APIs</b> using <b>Azure Functions</b>,{" "}
-      <b>Data Factory</b>, <b>Power Automate</b>, and <b>Azure KeyVault</b>,
-      while providing strategic guidance on <b>Azure Cloud architecture</b> to
-      align technical solutions with business goals.
+      Designed and deployed serverless APIs using <b>Azure Functions</b> and{" "}
+      <b>Data Factory</b>, with <b>Azure Key Vault</b> managing secrets across
+      all environments.
     </>,
     <>
-      Collaborated with project managers, domain experts, and engineering teams
-      to deliver high-impact solutions while earning professional certifications
-      and completing trainings aligned with my work experience.
+      Contributed to cloud architecture decisions and helped align technical
+      solutions with client business requirements across multiple engagements.
     </>,
   ],
   imageUrl: CapImage,
@@ -49,19 +44,16 @@ export const UcfJob: JobModel = {
   location: "Orlando, FL",
   description: [
     <>
-      Held weekly virtual and in-person office hours for a high-enrollment
-      computer science course with over 150 students, fostering academic support
-      and engagement.
+      Ran weekly office hours for a <b>150+ student</b> CS course, helping
+      students work through assignments and prep for exams.
     </>,
     <>
-      Assisted students with homework, exam preparation, and conceptual
-      understanding of core course topics, contributing to improved performance
-      and confidence.
+      Broke down complex CS concepts in ways that clicked focusing on
+      understanding, not just getting answers.
     </>,
     <>
-      Completed structured training sessions and participated in regular
-      pedagogical meetings to develop effective teaching strategies and
-      classroom techniques.
+      Took part in structured teaching workshops to sharpen instructional skills
+      and improve how I communicated technical ideas.
     </>,
   ],
   imageUrl: UcfImage,
@@ -73,10 +65,10 @@ export const UniversalJob: JobModel = {
   years: "May 2017 – Sep. 2021",
   location: "Orlando, FL",
   description: [
-    "Oversaw the development and growth of aquatics team members as first responders and problem solvers, while ensuring consistent delivery of quality guest hospitality.",
-    "Supported the launch of a new theme park by assisting in staff preparation and operational readiness for the high-profile event.",
-    "Contributed to the recruitment and onboarding of a new team of lifeguards following operational closures during the COVID-19 pandemic.",
-    "Designed and implemented training strategies focused on safety, efficiency, and recovery, maintaining performance audit scores above 90% for all trained employees.",
+    "Mentored and developed junior team members as first responders, maintaining safety standards and guest experience simultaneously.",
+    "Helped staff and prepare a team for the launch of a new theme park, which was a high-visibility, high-pressure operational milestone.",
+    "Led post-COVID rehiring and onboarding of a new lifeguard team, rebuilding operations from the ground up.",
+    "Designed safety training programs that kept audit scores above 90% across all trained staff.",
   ],
   imageUrl: UniversalImage,
 };

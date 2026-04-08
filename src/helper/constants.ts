@@ -23,7 +23,7 @@ import dotnetImage from "/public/Dotnet.png"
 import azureImage from "/public/Azure.png"
 
 export const phoneNumber = "407-624-8456"
-export const email = "gustavoxcornejo@gmail.com"
+export const email = "gus.cornejo@icloud.com"
 export const resumeLink = "https://www.icloud.com/iclouddrive/06f8Wj-q9IlXnKKQ7_j0NM68g#Resume"
 
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
@@ -42,7 +42,7 @@ export const Skills: SkillModel[] = [
   {image:jsImage, title:"JavaScript"},
   {image:tsImage, title:"TypeScript"},
   {image:nodeImage, title:"Node.js"},
-   {image:azureImage, title:"Azure"},
+  {image:azureImage, title:"Azure"},
   {image:htmlImage, title:"HTML5"},
   {image:cssImage, title:"CSS3"},
   {image:tailwindImage, title:"Tailwind CSS"},
