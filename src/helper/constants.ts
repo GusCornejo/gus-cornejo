@@ -21,10 +21,12 @@ import tailwindImage from "../../public/Tailwind.png";
 import swiftImage from "../../public/Swift.png";
 import dotnetImage from "../../public/Dotnet.png"
 import azureImage from "../../public/Azure.png"
+import angularImage from "../../public/Angular.png"
+import claudeImage from "../../public/Claude.png"
 
 export const phoneNumber = "407-624-8456"
 export const email = "gus.cornejo@icloud.com"
-export const resumeLink = "https://www.icloud.com/iclouddrive/098tB9ZgsJlU4bmp8DctKzLYw#Resume"
+export const resumeLink = "https://www.icloud.com/iclouddrive/0bfXEjgSwF5yHeiPKQF5y9wbg#Resume"
 
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
@@ -39,9 +41,11 @@ export const Bio3: string = "Whether I'm collaborating with a team under tight d
 export const Skills: SkillModel[] = [
   {image:reactImage, title:"React.js"},
   {image:nextImage, title:"Next.js"},
+  {image:angularImage, title:"Angular"},
   {image:jsImage, title:"JavaScript"},
   {image:tsImage, title:"TypeScript"},
   {image:nodeImage, title:"Node.js"},
+  {image:claudeImage, title:"Claude Code"},
   {image:azureImage, title:"Azure"},
   {image:htmlImage, title:"HTML5"},
   {image:cssImage, title:"CSS3"},
@@ -51,7 +55,7 @@ export const Skills: SkillModel[] = [
   {image:gitImage, title:"Git"}
 ]
 
-export const FunctionalSkills = ["Team-player","Communication","Attention to detail","Adaptability and flexibility","Problem-solving","Bilingual (English, Spanish)"]
+export const FunctionalSkills = ["Team-player","Communication","Attention to detail","Adaptability and flexibility","Problem-solving","Multilingual: 🇬🇧 🇪🇸 🇧🇷"]
 
 export const Certifications: CarouselModel[] = [
   {

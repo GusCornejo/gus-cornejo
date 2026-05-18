@@ -15,6 +15,11 @@ export const Capgemini: JobModel = {
       with <b>MSAL</b> handling enterprise auth for real client users.
     </>,
     <>
+      Developed and orchestrated agentic AI workflows using Claude Code and the
+      Anthropic API, enabling autonomous multi-step task execution and
+      intelligent tool use within internal developer tooling
+    </>,
+    <>
       Owned the full deployment lifecycle: end-to-end testing,{" "}
       <b>CI/CD pipeline</b> setup, and production releases across multiple
       environments.
