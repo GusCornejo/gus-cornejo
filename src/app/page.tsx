@@ -7,6 +7,7 @@ import Image from "next/image";
 import { Bio1, Bio2, Bio3, FunctionalSkills, Skills } from "@/helper/constants";
 import Profiles from "@/components/profiles";
 import FunctionalSkillCard from "@/components/functionalSkillCard";
+import DuoCard from "@/components/duoCard";
 
 export default function Home() {
   return (
@@ -45,15 +46,16 @@ export default function Home() {
       </div>
       <div className="p-5 flex flex-col justify-center items-center ">
         <p className="mb-6 align text-white text-center text-3xl lg:text-5xl">
-          Functional Skills
+          Other Skills
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           {FunctionalSkills.map((skill, key) => (
             <FunctionalSkillCard key={key} title={skill} />
           ))}
         </div>
+        <br />
+        <DuoCard />
       </div>
-      <br />
     </>
   );
 }
