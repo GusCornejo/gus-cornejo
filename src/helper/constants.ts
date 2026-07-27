@@ -7,6 +7,10 @@ import DataFundamentals from "../../public/DataFundamentals.png";
 import PSM1 from "../../public/PSM1.jpg";
 import iOS from "../../public/iOS.jpg";
 import CodePath from "../../public/CodePath.jpg";
+import Claude101 from "../../public/Claude101.png";
+import ClaudeCode101 from "../../public/ClaudeCode101.png";
+import AgentSkills from "../../public/AgentSkills.png";
+import Subagents from "../../public/Subagents.png";
 import { SkillModel } from "@/models/SkillModel";
 //images
 import tsImage from "../../public/Typescript.png";
@@ -24,10 +28,10 @@ import azureImage from "../../public/Azure.png"
 import angularImage from "../../public/Angular.png"
 import claudeImage from "../../public/Claude.png"
 
+
 export const phoneNumber = "407-624-8456"
 export const email = "gus.cornejo@icloud.com"
-export const resumeLink = "https://www.icloud.com/iclouddrive/0bfXEjgSwF5yHeiPKQF5y9wbg#Resume"
-
+export const resumeLink = "https://www.icloud.com/iclouddrive/0901IOnsnehah39hz3n3AUhyQ#Resume"
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
 export const MicrosoftLearnURL = "https://learn.microsoft.com/en-us/users/guscornejo/transcript/de6w2a2wnzoe0y5?tab=credentials-tab";
@@ -121,4 +125,40 @@ export const MicrosoftCerts: CarouselModel[] = [
       imageUrl: PowerFundamentals,
       link: "https://learn.microsoft.com/api/credentials/share/en-us/GusCornejo/1CA09EE7DCC24201?sharingId=CD5FBAEF0692883B",
     },
+  ];
+
+  export const AnthropicCerts: CarouselModel[] = [
+    {
+      id: 1,
+      title: "Claude 101",
+      description:
+        "",
+      imageUrl: Claude101,
+      link: "https://verify.skilljar.com/c/4e9gopqf6u3y",
+    },
+    {
+      id: 2,
+      title: "Claude Code 101",
+      description:
+        "",
+      imageUrl: ClaudeCode101,
+      link: "https://verify.skilljar.com/c/9r6wmjssinf4",
+    },
+    {
+      id: 3,
+      title: "Introduction to Agent Skills",
+      description:
+        "",
+      imageUrl: AgentSkills,
+      link: "https://verify.skilljar.com/c/7qbj5v3buev5",
+    },
+    {
+      id: 4,
+      title: "Introduction toSubagents",
+      description:
+        "",
+      imageUrl: Subagents,
+      link: "https://verify.skilljar.com/c/p434pdhtnf2z",
+    },
+
   ];

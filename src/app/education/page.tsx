@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Hero from "@/components/hero";
 import Carousel from "@/components/carousel/carousel";
-import { Certifications, MicrosoftCerts } from "@/helper/constants";
+import {
+  AnthropicCerts,
+  Certifications,
+  MicrosoftCerts,
+} from "@/helper/constants";
 import educationImg from "../../../public/education.jpg";
 import UcfImage from "../../../public/UCF.jpg";
 import UcfDiploma from "../../../public/Diploma.jpg";
@@ -15,13 +19,18 @@ export default function EducationPage() {
       </div>
       <div className="p-5 mt-5 flex flex-wrap justify-center gap-4">
         <Carousel
-          slides={Certifications}
-          title="Certifications"
+          slides={AnthropicCerts}
+          title="Anthropic Certifications"
           options={{ loop: true }}
         />
         <Carousel
           slides={MicrosoftCerts}
           title="Microsoft Certifications"
+          options={{ loop: true }}
+        />
+        <Carousel
+          slides={Certifications}
+          title="Other Certifications"
           options={{ loop: true }}
         />
       </div>
