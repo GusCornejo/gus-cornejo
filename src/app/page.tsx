@@ -4,7 +4,14 @@ import SkillCard from "@/components/skillCard";
 import homeImg from "../../public/hero.jpg";
 import myImg from "../../public/gus.jpeg";
 import Image from "next/image";
-import { Bio1, Bio2, Bio3, FunctionalSkills, Skills } from "@/helper/constants";
+import {
+  Bio1,
+  Bio2,
+  Bio3,
+  FunctionalSkills,
+  Skills,
+  Badges,
+} from "@/helper/constants";
 import Profiles from "@/components/profiles";
 import FunctionalSkillCard from "@/components/functionalSkillCard";
 import DuoCard from "@/components/duoCard";
@@ -19,11 +26,24 @@ export default function Home() {
         </h1>
       </div>
       <div className="mt-5 p-5 flex flex-row flex-wrap justify-center items-center gap-10">
-        <Image
-          src={myImg}
-          alt="Gustavo Cornejo"
-          className="xl:w-[20vw] xl:h-[20vw] lg:w-[20vw] lg:h-[20vw] md:w-[30vw] md:h-[30vw] rounded-2xl border-2 border-black shadow-xl"
-        />
+        <div className="relative">
+          <Image
+            src={myImg}
+            alt="Gustavo Cornejo"
+            className="xl:w-[20vw] xl:h-[20vw] lg:w-[20vw] lg:h-[20vw] md:w-[30vw] md:h-[30vw] rounded-2xl border-2 border-black shadow-xl"
+          />
+          <div className="absolute top-2 right-2 flex flex-col items-end gap-2">
+            {Badges.map((badge, i) => (
+              <Image
+                key={i}
+                src={badge}
+                alt={`badge-${i}`}
+                width={48}
+                height={48}
+              />
+            ))}
+          </div>
+        </div>
         <div className="flex flex-col items-center">
           <p className="lg:text-xl md:text-lg sm:text-md xl:w-[50vw] lg:w-[50vw] md:w-[50vw] sm:w-[80vw] bg-white rounded-lg shadow-xl border-1 p-5">
             {Bio1} <br />

@@ -7,10 +7,7 @@ import DataFundamentals from "../../public/DataFundamentals.png";
 import PSM1 from "../../public/PSM1.jpg";
 import iOS from "../../public/iOS.jpg";
 import CodePath from "../../public/CodePath.jpg";
-import Claude101 from "../../public/Claude101.png";
-import ClaudeCode101 from "../../public/ClaudeCode101.png";
-import AgentSkills from "../../public/AgentSkills.png";
-import Subagents from "../../public/Subagents.png";
+import ClaudeAssociate from "../../public/ClaudeAssociate.png";
 import { SkillModel } from "@/models/SkillModel";
 //images
 import tsImage from "../../public/Typescript.png";
@@ -27,11 +24,15 @@ import dotnetImage from "../../public/Dotnet.png"
 import azureImage from "../../public/Azure.png"
 import angularImage from "../../public/Angular.png"
 import claudeImage from "../../public/Claude.png"
+//badges
+import azureBadge from "../../public/AIEngineerBadge.svg"
+import claudeAssociateBadge from "../../public/ClaudeAssociateBadge.svg"
+import psm1Badge from "../../public/PSMIBadge.svg"
 
 
 export const phoneNumber = "407-624-8456"
 export const email = "gus.cornejo@icloud.com"
-export const resumeLink = "https://www.icloud.com/iclouddrive/0901IOnsnehah39hz3n3AUhyQ#Resume"
+export const resumeLink = "https://www.icloud.com/iclouddrive/03cBARQ6Ims642y2XvNiNOzPg#Resume"
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
 export const MicrosoftLearnURL = "https://learn.microsoft.com/en-us/users/guscornejo/transcript/de6w2a2wnzoe0y5?tab=credentials-tab";
@@ -41,6 +42,8 @@ export const Bio1: string = "Hi, I'm Gustavo Cornejo - but most people just call
 export const Bio2: string = "I specialize in building modern applications using React and TypeScript, and I've had the opportunity to develop a web-based platform that integrates Azure API Management and Cosmos DB - boosting both user experience and backend efficiency."
 
 export const Bio3: string = "Whether I'm collaborating with a team under tight deadlines or exploring new frontend technologies, I thrive in environments that challenge me to think creatively and build solutions that make a real impact. I'm excited to keep pushing boundaries and bring thoughtful, innovative interfaces to life.";
+
+export const Badges = [psm1Badge, claudeAssociateBadge, azureBadge]
 
 export const Skills: SkillModel[] = [
   {image:reactImage, title:"React.js"},
@@ -130,35 +133,12 @@ export const MicrosoftCerts: CarouselModel[] = [
   export const AnthropicCerts: CarouselModel[] = [
     {
       id: 1,
-      title: "Claude 101",
+      title: "Claude Certified Associate - Foundations",
       description:
         "",
-      imageUrl: Claude101,
-      link: "https://verify.skilljar.com/c/4e9gopqf6u3y",
-    },
-    {
-      id: 2,
-      title: "Claude Code 101",
-      description:
-        "",
-      imageUrl: ClaudeCode101,
-      link: "https://verify.skilljar.com/c/9r6wmjssinf4",
-    },
-    {
-      id: 3,
-      title: "Introduction to Agent Skills",
-      description:
-        "",
-      imageUrl: AgentSkills,
-      link: "https://verify.skilljar.com/c/7qbj5v3buev5",
-    },
-    {
-      id: 4,
-      title: "Introduction toSubagents",
-      description:
-        "",
-      imageUrl: Subagents,
-      link: "https://verify.skilljar.com/c/p434pdhtnf2z",
+      imageUrl: ClaudeAssociate,
+      link: "https://www.credly.com/badges/b99ae56b-8afa-44e6-afb9-6553236e3a65/public_url",
     },
 
   ];
+
