@@ -6,7 +6,7 @@ import {
   GitHubURL,
   LinkedInURL,
   MicrosoftLearnURL,
-  resumeLink,
+  resumeURL,
 } from "@/helper/constants";
 import Link from "next/link";
 import { FaDownload } from "react-icons/fa";
@@ -39,7 +39,7 @@ export default function Profiles() {
         onClick={() => window.open(MicrosoftLearnURL, "_blank")}
       />
       <Link
-        href={resumeLink}
+        href={resumeURL}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 bg-sky-600 text-white text-lg px-5 py-3 rounded-lg shadow-md transition-transform duration-200 hover:scale-105"

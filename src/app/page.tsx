@@ -4,14 +4,7 @@ import SkillCard from "@/components/skillCard";
 import homeImg from "../../public/hero.jpg";
 import myImg from "../../public/gus.jpeg";
 import Image from "next/image";
-import {
-  Bio1,
-  Bio2,
-  Bio3,
-  FunctionalSkills,
-  Skills,
-  Badges,
-} from "@/helper/constants";
+import { Bio, FunctionalSkills, Skills, Badges } from "@/helper/constants";
 import Profiles from "@/components/profiles";
 import FunctionalSkillCard from "@/components/functionalSkillCard";
 import DuoCard from "@/components/duoCard";
@@ -46,9 +39,17 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center">
           <p className="lg:text-xl md:text-lg sm:text-md xl:w-[50vw] lg:w-[50vw] md:w-[50vw] sm:w-[80vw] bg-white rounded-lg shadow-xl border-1 p-5">
-            {Bio1} <br />
-            <br /> {Bio2} <br />
-            <br /> {Bio3}
+            {Bio.map((bio, index) => (
+              <span key={index}>
+                {index > 0 && (
+                  <>
+                    <br />
+                    <br />
+                  </>
+                )}
+                {bio}
+              </span>
+            ))}
           </p>
           <Profiles />
         </div>
