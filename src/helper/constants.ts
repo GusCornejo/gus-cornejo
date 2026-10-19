@@ -32,9 +32,9 @@ import claudeAssociateBadge from "../../public/ClaudeAssociateBadge.svg"
 import psm1Badge from "../../public/PSMIBadge.svg"
 
 
-export const phoneNumber = "407-624-8456"
-export const email = "gus.cornejo@icloud.com"
-export const resumeURL = "https://www.icloud.com/iclouddrive/0cbdfyuespEeTTrRDY1rdccsQ"
+export const phoneNumber = "407-624-8456";
+export const email = "gus.cornejo@icloud.com";
+export const resumeURL = "/Users/gustavocornejo/Documents/Resumes/Resume.pdf";
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
 export const MicrosoftLearnURL = "https://learn.microsoft.com/en-us/users/guscornejo/transcript/de6w2a2wnzoe0y5?tab=credentials-tab";
@@ -73,7 +73,7 @@ export const Certifications: CarouselModel[] = [
     title: "Professional Scrum Master I", 
     description: "", 
     imageUrl: PSM1, 
-    link: "https://www.scrum.org/certificates/860510"
+    link: "https://www.credly.com/badges/50074238-57dd-418e-8acf-a45bf8f08910"
   },
   {
     id: 2, 
