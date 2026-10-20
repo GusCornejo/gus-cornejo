@@ -34,7 +34,7 @@ import psm1Badge from "../../public/PSMIBadge.svg"
 
 export const phoneNumber = "407-624-8456";
 export const email = "gus.cornejo@icloud.com";
-export const resumeURL = "/Users/gustavocornejo/Documents/Resumes/Resume.pdf";
+export const resumeURL = "https://www.icloud.com/iclouddrive/0531wF_grsc8Mrc8iIDHdjJCg";
 export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
 export const GitHubURL = "https://github.com/GusCornejo";
 export const MicrosoftLearnURL = "https://learn.microsoft.com/en-us/users/guscornejo/transcript/de6w2a2wnzoe0y5?tab=credentials-tab";
