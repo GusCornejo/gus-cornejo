@@ -1,14 +1,6 @@
 export default function Footer() {
   return (
-    <footer
-      style={{
-        backgroundColor: "#1a1a1a",
-        color: "#ccc",
-        padding: "1rem",
-        textAlign: "center",
-        fontSize: "0.875rem",
-      }}
-    >
+    <footer className="bg-[#1a1a1a] text-[#ccc] p-4 text-center text-sm mt-auto">
       <p>
         Website developed by <strong>Gus Cornejo</strong> using Next.js.
       </p>

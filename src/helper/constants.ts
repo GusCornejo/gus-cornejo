@@ -12,7 +12,6 @@ import ClaudeDeveloper from "../../public/ClaudeDeveloper.png";
 import { SkillModel } from "@/models/SkillModel";
 //images
 import tsImage from "../../public/Typescript.png";
-import jsImage from "../../public/Javascript.png";
 import reactImage from "../../public/React.png";
 import nextImage from "../../public/Next.png";
 import htmlImage from "../../public/HTML.png";
@@ -23,8 +22,10 @@ import tailwindImage from "../../public/Tailwind.png";
 import swiftImage from "../../public/Swift.png";
 import dotnetImage from "../../public/Dotnet.png"
 import azureImage from "../../public/Azure.png"
+import microsoftFoundryImage from "../../public/MicrosoftFoundry.png"
 import angularImage from "../../public/Angular.png"
 import claudeImage from "../../public/Claude.png"
+import pythonImage from "../../public/Python.png"
 //badges
 import azureBadge from "../../public/AIEngineerBadge.svg"
 import claudeDeveloperBadge from "../../public/ClaudeDeveloperBadge.svg"
@@ -34,38 +35,47 @@ import psm1Badge from "../../public/PSMIBadge.svg"
 
 export const phoneNumber = "407-624-8456";
 export const email = "gus.cornejo@icloud.com";
-export const resumeURL = "https://www.icloud.com/iclouddrive/0531wF_grsc8Mrc8iIDHdjJCg";
-export const LinkedInURL = "https://linkedin.com/in/guscornejov ";
+export const resumeURL = "https://www.icloud.com/iclouddrive/0b6KSPea8h4oAzT0qi3idJfpw";
+export const LinkedInURL = "https://linkedin.com/in/guscornejov";
 export const GitHubURL = "https://github.com/GusCornejo";
 export const MicrosoftLearnURL = "https://learn.microsoft.com/en-us/users/guscornejo/transcript/de6w2a2wnzoe0y5?tab=credentials-tab";
 
 export const Bio: string[] = [
-  "Hi, I’m Gustavo Cornejo, but most people just call me Gus 👋. I’m a Full-Stack Software Engineer with a solid foundation in computer science and a love for crafting intuitive, high-performance web experiences.",
-  "I specialize in building modern applications with React and TypeScript, backed by ASP.NET and Azure on the server side. I’ve developed a web-based platform that integrates Azure API Management and Cosmos DB, boosting both user experience and backend efficiency. I also build with agentic development workflows using Claude Code, which helps me ship faster and keep quality high.",
-  "Outside of work, I like to tinker with native iOS apps in Swift as personal projects.",
-  "Whether I’m collaborating with a team under tight deadlines or exploring new technologies, I thrive in environments that challenge me to think creatively and build solutions that make a real impact. I’m excited to keep pushing boundaries and bring thoughtful, innovative products to life."
+  "Hi, I’m Gustavo Cornejo, but most people just call me Gus 👋. I’m a Full-Stack Software Engineer with deep expertise in React and TypeScript, building fast, intuitive user interfaces backed by robust ASP.NET services and enterprise Azure architecture.",
+  "I build end-to-end — from the data layer to a polished UI — and use agentic development with Claude Code to ship faster and raise code quality. I’m a collaborative problem-solver who turns complex data into seamless user experiences.",
+  "Outside of work, I like to tinker with native iOS apps in SwiftUI as personal projects.",
 ];
 
 export const Badges = [azureBadge, psm1Badge,  claudeDeveloperBadge, claudeAssociateBadge  ]
 
 export const Skills: SkillModel[] = [
+  {image:tsImage, title:"TypeScript"},
+  {image:pythonImage, title:"Python"},
   {image:reactImage, title:"React.js"},
   {image:nextImage, title:"Next.js"},
   {image:angularImage, title:"Angular"},
-  {image:jsImage, title:"JavaScript"},
-  {image:tsImage, title:"TypeScript"},
   {image:nodeImage, title:"Node.js"},
+  {image:dotnetImage, title:"ASP.NET"},
   {image:claudeImage, title:"Claude Code"},
   {image:azureImage, title:"Azure"},
+  {image:microsoftFoundryImage, title:"Microsoft AI Foundry"},
   {image:htmlImage, title:"HTML5"},
   {image:cssImage, title:"CSS3"},
   {image:tailwindImage, title:"Tailwind CSS"},
-  {image:swiftImage, title:"Swift"},
-  {image:dotnetImage, title:".NET MAUI"},
+  {image:swiftImage, title:"SwiftUI"},
   {image:gitImage, title:"Git"}
 ]
 
-export const FunctionalSkills = ["Team-player","Communication","Attention to detail","Adaptability and flexibility","Problem-solving","Multilingual: 🇬🇧 🇪🇸 🇧🇷"]
+export const FunctionalSkills = [
+  "C#",
+  "Python",
+  "Team-player",
+  "Communication",
+  "Attention to detail",
+  "Adaptability and flexibility",
+  "Problem-solving",
+  "English (fluent) · Spanish (native) · Portuguese (intermediate)",
+]
 
 export const Certifications: CarouselModel[] = [
   {

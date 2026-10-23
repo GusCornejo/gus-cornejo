@@ -20,19 +20,23 @@ export default function ContactPage() {
     setIsSubmitting(true);
     setError("");
     try {
-      await fetch("api/send", {
+      const response = await fetch("/api/send", {
         method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: formData.name,
           subject: formData.subject,
           body: formData.body,
         }),
       });
+      if (!response.ok) {
+        const data = await response.json().catch(() => null);
+        throw new Error(data?.error || "Failed to send email");
+      }
       setSuccess(true);
       setFormData({ name: "", subject: "", body: "" });
     } catch (error) {
-      console.log(error);
-      setError("Failed to send email");
+      setError(error instanceof Error ? error.message : "Failed to send email");
     } finally {
       setIsSubmitting(false);
     }

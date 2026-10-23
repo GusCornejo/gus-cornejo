@@ -10,33 +10,35 @@ export const Capgemini: JobModel = {
   location: "Columbia, SC",
   description: [
     <>
-      Built and shipped a production enterprise web app from the ground up{" "}
-      <b>TypeScript</b>, <b>React</b>, <b>Azure APIM</b>, and <b>Cosmos DB</b>{" "}
-      with <b>MSAL</b> handling enterprise auth for real client users.
+      Architected and deployed full-stack user administration applications
+      managing <b>3,000+ user accounts</b>, built with <b>TypeScript</b>,{" "}
+      <b>React</b>, and <b>Azure APIM</b>, using <b>Cosmos DB</b> for scalable
+      data modeling and <b>MSAL</b> for secure, enterprise-grade authentication.
     </>,
     <>
-      Developed and orchestrated agentic AI workflows using Claude Code and the
-      Anthropic API, enabling autonomous multi-step task execution and
-      intelligent tool use within internal developer tooling
+      Developed and orchestrated agentic AI workflows using{" "}
+      <b>Claude Code</b> and the <b>Anthropic API</b>, building an{" "}
+      <b>MCP server</b>, custom subagents, skills, and hooks to enable
+      autonomous multi-step task execution and intelligent tool use within
+      internal developer tooling.
     </>,
     <>
-      Owned the full deployment lifecycle: end-to-end testing,{" "}
-      <b>CI/CD pipeline</b> setup, and production releases across multiple
-      environments.
+      Designed and deployed a custom-trained computer vision model in{" "}
+      <b>Microsoft Foundry</b>, automating users&apos; daily image capture and
+      analysis tasks at over <b>5,000 uses per day</b> while aligning the
+      architecture with client business goals.
     </>,
     <>
-      Developed a cross-platform mobile app in <b>.NET MAUI</b> that runs
-      natively on both <b>Android</b> and <b>iOS</b> from a single shared
-      codebase.
+      Engineered cross-platform mobile solutions with <b>.NET MAUI</b>,
+      integrating <b>ASP.NET Web APIs</b> and <b>Microsoft Graph API</b> to
+      deliver seamless UX and unified functionality across Android and iOS
+      devices.
     </>,
     <>
-      Designed and deployed serverless APIs using <b>Azure Functions</b> and{" "}
-      <b>Data Factory</b>, with <b>Azure Key Vault</b> managing secrets across
-      all environments.
-    </>,
-    <>
-      Contributed to cloud architecture decisions and helped align technical
-      solutions with client business requirements across multiple engagements.
+      Developed high-performance serverless APIs via <b>Azure Functions</b> and
+      managed complex ETL workflows with <b>Data Factory</b>; implemented{" "}
+      <b>Azure Key Vault</b> to maintain a zero-trust security posture for
+      sensitive client data.
     </>,
   ],
   imageUrl: CapImage,
@@ -45,20 +47,18 @@ export const Capgemini: JobModel = {
 export const UcfJob: JobModel = {
   company: "University of Central Florida",
   title: "Undergraduate Learning Assistant",
-  years: "May 2021 – May 2022",
+  years: "May 2021 – Aug 2022",
   location: "Orlando, FL",
   description: [
     <>
-      Ran weekly office hours for a <b>150+ student</b> CS course, helping
-      students work through assignments and prep for exams.
+      Facilitated weekly virtual and in-person office hours for{" "}
+      <b>150+ students</b>, providing targeted support on assignments and exam
+      preparation to improve academic performance.
     </>,
     <>
-      Broke down complex CS concepts in ways that clicked focusing on
-      understanding, not just getting answers.
-    </>,
-    <>
-      Took part in structured teaching workshops to sharpen instructional skills
-      and improve how I communicated technical ideas.
+      Applied professional teaching strategies and classroom techniques gained
+      through specialized training to boost student engagement and confidence in
+      core CS topics.
     </>,
   ],
   imageUrl: UcfImage,

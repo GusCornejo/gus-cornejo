@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,9 +14,43 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://guscornejo.com";
+
 export const metadata: Metadata = {
-  title: "Gustavo Cornejo",
-  description: "Portfolio Website of Gustavo Cornejo",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Gustavo Cornejo",
+    template: "%s | Gustavo Cornejo",
+  },
+  description:
+    "Full-Stack Software Engineer specializing in React, TypeScript, ASP.NET, and Azure. Portfolio of Gustavo Cornejo.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: "Gustavo Cornejo",
+    title: "Gustavo Cornejo",
+    description:
+      "Full-Stack Software Engineer specializing in React, TypeScript, ASP.NET, and Azure.",
+    images: [
+      {
+        url: "/gus.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Gustavo Cornejo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gustavo Cornejo",
+    description:
+      "Full-Stack Software Engineer specializing in React, TypeScript, ASP.NET, and Azure.",
+    images: ["/gus.jpeg"],
+  },
 };
 
 export default function RootLayout({
@@ -26,10 +61,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${geistSans.className} antialiased min-h-screen flex flex-col`}
       >
         <Header />
-        {children}
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

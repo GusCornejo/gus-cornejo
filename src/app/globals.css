@@ -3,34 +3,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
-
-.home-photo {
-  width: 50vw;
-  max-width: 500px;
-  height: auto;
-  border-radius: 5%;
-  box-shadow: #0a0a0a 0px 0px 5px 0px;
-}
-
-.photo {
-  max-width: 100%;
-  height: auto;
-  border-radius: 25px;
-  box-shadow: #0a0a0a 0px 0px 5px 0px;
-}
-
-.bio {
-  padding: 20px;
-  max-width: 100vh;
-  font-size: 1.5rem;
-  color: black;
-  background-color: white;
-  border-radius: 7px;
-  box-shadow: #0a0a0a 0px 0px 5px 0px;
-}
-
 
 .underline-offset {
   position: relative;
