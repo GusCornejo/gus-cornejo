@@ -9,6 +9,7 @@ import iOS from "../../public/iOS.jpg";
 import CodePath from "../../public/CodePath.jpg";
 import ClaudeAssociate from "../../public/ClaudeAssociate.png";
 import ClaudeDeveloper from "../../public/ClaudeDeveloper.png";
+import ClaudeArchitect from "../../public/ClaudeArchitect.png";
 import { SkillModel } from "@/models/SkillModel";
 //images
 import tsImage from "../../public/Typescript.png";
@@ -29,7 +30,7 @@ import pythonImage from "../../public/Python.png"
 //badges
 import azureBadge from "../../public/AIEngineerBadge.svg"
 import claudeDeveloperBadge from "../../public/ClaudeDeveloperBadge.svg"
-import claudeAssociateBadge from "../../public/ClaudeAssociateBadge.svg"
+import claudeArchitectBadge from "../../public/ClaudeArchitectBadge.svg"
 import psm1Badge from "../../public/PSMIBadge.svg"
 
 
@@ -46,7 +47,7 @@ export const Bio: string[] = [
   "Outside of work, I like to tinker with native iOS apps in SwiftUI as personal projects.",
 ];
 
-export const Badges = [azureBadge, psm1Badge,  claudeDeveloperBadge, claudeAssociateBadge  ]
+export const Badges = [azureBadge, psm1Badge, claudeArchitectBadge, claudeDeveloperBadge]
 
 export const Skills: SkillModel[] = [
   {image:tsImage, title:"TypeScript"},
@@ -146,6 +147,14 @@ export const MicrosoftCerts: CarouselModel[] = [
   export const AnthropicCerts: CarouselModel[] = [
     {
       id: 1,
+      title: "Claude Certified Architect - Foundations",
+      description:
+        "",
+      imageUrl: ClaudeArchitect,
+      link: "https://www.credly.com/badges/a985b712-9958-4c96-898c-a005202e1746/public_url",
+    },
+    {
+      id: 2,
       title: "Claude Certified Developer - Foundations",
       description:
         "",
@@ -153,13 +162,12 @@ export const MicrosoftCerts: CarouselModel[] = [
       link: "https://www.credly.com/badges/6659d83e-6374-4711-bdda-80ea525ebcbb/public_url",
     },
     {
-      id: 2,
+      id: 3,
       title: "Claude Certified Associate - Foundations",
       description:
         "",
       imageUrl: ClaudeAssociate,
       link: "https://www.credly.com/badges/b99ae56b-8afa-44e6-afb9-6553236e3a65/public_url",
     },
-
   ];
 
